@@ -14,7 +14,7 @@
 
 - State
     
-    Model the app state and give access to app external resources like browser data, apis data, etc.
+    Model the app state and give access to app external resources like browser data, APIs data, etc.
 
 - Components
     
