@@ -2,9 +2,11 @@
 
 - For files and directories use **kebab-case**
 
+
 ## Typescript
 
-- This project includes typescript support and a tslint proposa
+- This project includes typescript support and a tslint proposal
+
 
 ## Layers
 

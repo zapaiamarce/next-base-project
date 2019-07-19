@@ -16,7 +16,7 @@ export class Truth extends ReactTruth<State> {
 
     return {
       ...this.state,
-      repos
+      repos,
     };
   }
 }
