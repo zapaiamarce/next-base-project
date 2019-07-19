@@ -2,11 +2,17 @@
 
 - For files and directories use **kebab-case**
 
+<<<<<<< HEAD
 
 ## Typescript
 
 - This project includes typescript support and a tslint proposal
 
+=======
+## Typescript
+
+- This project includes typescript support and a tslint proposal
+>>>>>>> 770afe098628629b99c8d86eb1e087067f75a05e
 
 ## Layers
 
@@ -16,7 +22,7 @@
 
 - State
     
-    Model the app state and give access to app external resources like browser data, apis data, etc.
+    Model the app state and give access to app external resources like browser data, APIs data, etc.
 
 - Components
     
