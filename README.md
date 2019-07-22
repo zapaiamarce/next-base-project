@@ -34,3 +34,11 @@
 ## Styled
 
 - Use of styled-components is strongly recommended for styling in general. The general rule would be: **For every component a "styled components" module will be created with the same name and a .styled.tsx ending**. For example, in the case of an **index.tsx** file, all the styled components needed from this component will be placed on **styled.tsx** in the same directory and, in the case of a **example.tsx** component, we´ll have an **example.styled.tsx** file with this particular module styled components.
+
+Eg.:
+
+- component-dir
+    - index.tsx
+    - styled.tsx
+    - another-subcomponent.tsx
+    - another-subcomponent.styled.tsx
