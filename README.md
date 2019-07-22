@@ -2,17 +2,16 @@
 
 - For files and directories use **kebab-case**
 
-<<<<<<< HEAD
 
-## Typescript
-
-- This project includes typescript support and a tslint proposal
-
-=======
 ## Typescript
 
 - This project includes typescript support and a tslint proposal
->>>>>>> 770afe098628629b99c8d86eb1e087067f75a05e
+
+
+## Typescript
+
+- This project includes typescript support and a tslint proposal
+
 
 ## Layers
 
@@ -31,3 +30,7 @@
 - UI
     No logical pieces. Pure/functional components. Not crossed dependencies allowed. It receive everything by **prop** including callbacks. 
 
+
+## Styled
+
+- Use of styled-components is strongly recommended for styling in general. The general rule would be: **For every component a "styled components" module will be created with the same name and a .styled.tsx ending**. For example, in the case of an **index.tsx** file, all the styled components needed from this component will be placed on **styled.tsx** in the same directory and, in the case of a **example.tsx** component, we´ll have an **example.styled.tsx** file with this particular module styled components.
