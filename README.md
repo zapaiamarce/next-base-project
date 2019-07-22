@@ -8,11 +8,6 @@
 - This project includes typescript support and a tslint proposal
 
 
-## Typescript
-
-- This project includes typescript support and a tslint proposal
-
-
 ## Layers
 
 - Pages (a.k.a: router)
