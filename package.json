@@ -3,7 +3,13 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "tslint ./**/*.ts{,x}"
+    "lint": "tslint ./**/*.ts{,x} -e \"node_modules\"",
+    "lint:fix": "yarn lint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
   },
   "name": "next-base-project",
   "version": "1.0.0",
