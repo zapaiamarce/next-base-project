@@ -11,12 +11,14 @@
       "allow-pascal-case",
       "require-const-for-all-caps"
     ],
+    "ordered-imports": [false],
+    "max-classes-per-file": false,
     "no-submodule-imports": false,
     "no-implicit-dependencies": false,
     "interface-name": [true, "never-prefix"]
   },
   "rulesDirectory": [],
   "linterOptions": {
-    "exclude": ["node_modules/**"]
+    "exclude": ["node_modules"]
   }
 }

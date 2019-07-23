@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "tslint ./**/*.ts{,x}"
   },
   "name": "next-base-project",
   "version": "1.0.0",
