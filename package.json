@@ -3,7 +3,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "tslint ./**/*.ts{,x} -e \"node_modules\"",
+    "lint": "tslint --project tsconfig.json",
     "lint:fix": "yarn lint --fix"
   },
   "husky": {

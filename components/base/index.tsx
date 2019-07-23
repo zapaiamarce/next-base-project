@@ -11,8 +11,6 @@ export default () => {
     actions.pullSomeRepos();
   };
 
-  console.log("hola")
-
   return (
     <div>
       <h2>Repos:</h2>
