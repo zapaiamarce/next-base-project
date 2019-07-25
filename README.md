@@ -5,7 +5,7 @@ For files and directories use **kebab-case**
 
 ## Directory structure
 
-In general one level of directories is all you need. Layer -> Component
+In general two levels of directories is all you need. Layer -> Component
 
 Eg.:
 
