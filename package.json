@@ -17,6 +17,7 @@
   "repository": "git@github.com:zapaiamarce/next-base-project.git",
   "license": "MIT",
   "dependencies": {
+    "lodash": "^4.17.15",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -27,6 +28,7 @@
     "@types/node": "^12.6.8",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.18",
     "babel-plugin-module-resolver": "^3.2.0",
     "babel-plugin-styled-components": "^1.10.6",
     "husky": "^3.0.1",

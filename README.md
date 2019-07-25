@@ -1,6 +1,18 @@
 ## Naming conventions
 
-- For files and directories use **kebab-case**
+For files and directories use **kebab-case**
+
+
+## Directory structure
+
+In general one level of directories is all you need. Layer -> Component
+
+Eg.:
+
+
+- /components
+    - /a-component
+        - file.tsx
 
 
 ## Typescript
@@ -10,19 +22,19 @@
 
 ## Layers
 
-- Pages (a.k.a: router)
+- ### Pages (a.k.a: router)
     
     Represents the router and just mount components and plug it with routes data. Eg.: Route params
 
-- State
+- ### State
     
     Model the app state and give access to app external resources like browser data, APIs data, etc.
 
-- Components
+- ### Components
     
     Has business logic. Orchestrate UI components in order to create usable pieces. Are allowed to have an state
 
-- UI
+- ### UI
     No logical pieces. Pure/functional components. Not crossed dependencies allowed. It receive everything by **prop** including callbacks. 
 
 
@@ -32,7 +44,7 @@ Use of styled-components is strongly recommended for styling in general. The gen
 
 Eg.:
 
-- component-dir
+- /component-dir
     - index.tsx
     - styled.tsx
     - another-subcomponent.tsx
