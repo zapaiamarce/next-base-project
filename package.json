@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "dev": "next",
+    "serve": "node server.js",
+    "dev": "npm run serve",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env NODE_ENV=production npm run serve",
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "yarn lint --fix"
   },
@@ -17,6 +18,9 @@
   "repository": "git@github.com:zapaiamarce/next-base-project.git",
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.7.4",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1",
     "lodash": "^4.17.15",
     "next": "^9.0.2",
     "react": "^16.8.6",
